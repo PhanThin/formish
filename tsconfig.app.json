@@ -9,7 +9,8 @@
     "src/polyfills.ts"
   ],
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "../_helpers/must-match.validator.ts"
   ],
   "exclude": [
     "src/test.ts",

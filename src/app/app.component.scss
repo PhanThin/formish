@@ -1,0 +1,49 @@
+.noShadow:focus {
+
+    box-shadow: none;
+}
+
+.box {
+
+    display: grid;
+    grid-template-columns: min-content auto;
+
+    .nav-bar-show {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #EFEFEF;
+        
+        a {
+
+            button {
+
+                width: 200px;
+                border-radius: 0px;
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+
+    .nav-bar-hidden {
+
+        background-color: rgba(0,0,0,.2);
+        width: 50px;
+        height: 100vh;
+
+        .nav-bar-button {
+
+            width: 25px;
+            margin-left: 12.5px;
+            margin-top: 10px;
+        }
+    }
+
+    .content {
+
+    }
+
+    
+}
